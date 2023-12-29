@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoursesActivity"
+
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:onClick="onClick"
+            android:src="@drawable/android"
+
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <Button
+            android:id="@+id/android_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/blue_button"
+            android:onClick="onClick"
+            android:text="ANDROID COURSE"
+
+            app:layout_constraintTop_toBottomOf="@id/iv_android"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <ImageView
+            android:id="@+id/iv_ios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:onClick="onClick"
+            android:src="@drawable/ios"
+
+            app:layout_constraintTop_toBottomOf="@id/android_button"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <Button
+            android:id="@+id/ios_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/blue_button"
+            android:onClick="onClick"
+            android:text="IOS COURSE"
+
+            app:layout_constraintTop_toBottomOf="@id/iv_ios"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <ImageView
+            android:id="@+id/iv_fullstack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:onClick="onClick"
+            android:src="@drawable/fullstack"
+
+            app:layout_constraintTop_toBottomOf="@id/ios_button"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <Button
+            android:id="@+id/fullstack_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/blue_button"
+            android:onClick="onClick"
+            android:text="FULLSTACK COURSE"
+
+            app:layout_constraintTop_toBottomOf="@id/iv_fullstack"
+            tools:layout_editor_absoluteX="16dp" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

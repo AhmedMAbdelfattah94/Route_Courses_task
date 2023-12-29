@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Route_Courses_task" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        
+         <item name="colorPrimary">@color/blue_button</item>
+         <item name="colorOnPrimary">@color/white</item>
+        
+    </style>
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+
+    </style>
+
+    <style name="Theme.Route_Courses_task" parent="Base.Theme.Route_Courses_task" />
+</resources>
